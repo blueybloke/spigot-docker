@@ -1,7 +1,8 @@
 # SpigotMC - High Performance Minecraft Server
 
 * * *
-
+## Note
+This is a fork from dlord's spigot docker image. Credit for most of this goes to them. For this version I have changed it to work using dcevm, which is an alternative JVM for hot-reloading of classes. This is good for developing spigot plugins without needing to restart your server. Also remote debugging is turned on by default now on port 5005 so you can debug from your IDE. Enjoy!
 
 ## About this image
 
